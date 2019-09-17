@@ -4,3 +4,6 @@ create:
 
 crd:
 	operator-sdk add api --api-version=app.devopsdays.com/v1alpha1 --kind=PodSet
+
+controller:
+	operator-sdk add controller --api-version=app.devopsdays.com/v1alpha1 --kind=PodSet
