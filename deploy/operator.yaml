@@ -16,9 +16,9 @@ spec:
       containers:
         - name: sample-operator
           # Replace this with the built image name
-          image: REPLACE_IMAGE
+          image: krol/podset-operator:1.0
           command:
-          - sample-operator
+            - sample-operator
           imagePullPolicy: Always
           env:
             - name: WATCH_NAMESPACE
